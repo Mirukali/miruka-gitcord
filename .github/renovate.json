@@ -1,6 +1,6 @@
 {
   "extends": [
-    "github>promise/renovate-config:fully-automated-repository",
-    "github>promise/renovate-config:force-node-version(22)"
+    "github>alikuxac/renovate:fully-automated",
+    "github>alikuxac/renovate:force-node-version(22)"
   ]
 }

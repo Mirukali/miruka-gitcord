@@ -1,9 +1,9 @@
-name = "miruka-gitcore"
+name = "miruka-gitcord"
 main = "./build/index.js"
 workers_dev = true
 compatibility_date = "2022-11-30"
 
-kv_namespaces = [{ binding = "DB", id = "293ac4c6310245ee8b87c7a070ae24b2" }]
+kv_namespaces = [{ binding = "DB", id = "f83fc97afdde47a798edbd563dde7354" }]
 
 [build]
 command = "yarn build"

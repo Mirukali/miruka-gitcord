@@ -1,4 +1,5 @@
 {
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
     "github>alikuxac/renovate:fully-automated",
     "github>alikuxac/renovate:force-node-version(22)"

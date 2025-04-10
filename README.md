@@ -1,10 +1,9 @@
-[![Deploy](https://img.shields.io/github/actions/workflow/status/biaw/gitcord-forum/build-and-publish.yml?label=build)](https://github.com/biaw/gitcord-forum/actions/workflows/build-and-publish.yml)
-[![Linting](https://img.shields.io/github/actions/workflow/status/biaw/gitcord-forum/linting.yml?label=quality)](https://github.com/biaw/gitcord-forum/actions/workflows/linting.yml)
-[![DeepScan grade](https://deepscan.io/api/teams/16173/projects/23243/branches/698660/badge/grade.svg)](https://deepscan.io/dashboard#view=project&tid=16173&pid=23243&bid=698660)
-[![GitHub Issues](https://img.shields.io/github/issues-raw/biaw/gitcord-forum.svg)](https://github.com/biaw/gitcord-forum/issues)
-[![GitHub Pull Requests](https://img.shields.io/github/issues-pr-raw/biaw/gitcord-forum.svg)](https://github.com/biaw/gitcord-forum/pulls)
+[![Deploy](https://img.shields.io/github/actions/workflow/status/biaw/gitcord-forum/build-and-publish.yml?label=build)](https://github.com/Mirukali/miruka-gitcord/actions/workflows/build-and-publish.yml)
+[![Linting](https://img.shields.io/github/actions/workflow/status/biaw/gitcord-forum/linting.yml?label=quality)](https://github.com/Mirukali/miruka-gitcord/actions/workflows/linting.yml)
+[![GitHub Issues](https://img.shields.io/github/issues-raw/biaw/gitcord-forum.svg)](https://github.com/Mirukali/miruka-gitcord/issues)
+[![GitHub Pull Requests](https://img.shields.io/github/issues-pr-raw/biaw/gitcord-forum.svg)](https://github.com/Mirukali/miruka-gitcord/pulls)
 
-# Gitcord Forum [![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/biaw/gitcord-forum)
+# Gitcord Forum [![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/Mirukali/miruka-gitcord)
 
 A middleware designed to sort your repositories into forum posts.
 
@@ -23,8 +22,8 @@ A middleware designed to sort your repositories into forum posts.
 
 ## Setting up with Workers
 
-1. [Deploy with Workers](https://deploy.workers.cloudflare.com/?url=https://github.com/biaw/gitcord-forum)
-2. Insert the environment variables listed in the [`wrangler.toml`](https://github.com/biaw/gitcord-forum/blob/main/wrangler.toml) file. You can either use the `wrangler` command, or do it through the worker dashboard.
+1. [Deploy with Workers](https://deploy.workers.cloudflare.com/?url=https://github.com/Mirukali/miruka-gitcord)
+2. Insert the environment variables listed in the [`wrangler.toml`](https://github.com/Mirukali/miruka-gitcord/blob/main/wrangler.toml) file. You can either use the `wrangler` command, or do it through the worker dashboard.
 3. Add your new worker URL (`https://gitcord-forum.WORKER_SUBDOMAIN.workers.dev/`) as a webhook in your GitHub repository settings. Make sure to set content type to `application/json` and also match the secret you set in the environment variables.
 
 ## How the middleware works

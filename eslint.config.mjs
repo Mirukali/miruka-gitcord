@@ -1,1 +1,5 @@
-export { default } from "eslint-config-promise";
+import eslint from '@eslint/js';
+
+export default [
+	eslint.configs.recommended
+];

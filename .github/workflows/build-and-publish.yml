@@ -21,19 +21,14 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4
 
-    - name: Set up pnpm
-      uses: pnpm/action-setup@v2
-      with:
-        run_install: false
-
     - name: Set up node
       uses: actions/setup-node@cdca7365b2dadb8aad0a33bc7601856ffabcc48e # v4
       with:
         node-version-file: ".nvmrc"
-        cache: "pnpm"
+        cache: "yarn"
 
     - name: Install dependencies
-      run: pnpm install --frozen-lockfile
+      run: yarn install
 
     - name: ${{ github.ref == 'refs/heads/main' && 'Build ans publish' || 'Test worker build' }}
       uses: cloudflare/wrangler-action@da0e0dfe58b7a431659754fdf3f186c529afbe65 # v3.14.1

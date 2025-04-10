@@ -1,4 +1,4 @@
-name = "gitcord-forum"
+name = "miruka-gitcore"
 main = "./build/index.js"
 workers_dev = true
 compatibility_date = "2022-11-30"
@@ -6,7 +6,7 @@ compatibility_date = "2022-11-30"
 kv_namespaces = [{ binding = "DB", id = "293ac4c6310245ee8b87c7a070ae24b2" }]
 
 [build]
-command = "npm run build"
+command = "yarn build"
 
 [vars]
 # Sensitive data should be stored in the worker itself as an encrypted value... in other terms: NOT IN THIS FILE!
@@ -19,4 +19,4 @@ command = "npm run build"
 # All sensitive variables get a default value of "" just so the worker doesn't crash
 
 IGNORED_USERS = "renovate[bot],github-actions[bot],cloudflare-pages[bot]"
-FALLBACK_URL = "https://github.com/biaw/gitcord-forum" # Fallback URL for when a user types the worker address
+FALLBACK_URL = "https://github.com/Mirukali/miruka-gitcord" # Fallback URL for when a user types the worker address

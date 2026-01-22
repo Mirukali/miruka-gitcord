@@ -18,7 +18,7 @@
     "@tsconfig/strictest": "2.0.5",
     "eslint": "9.24.0",
     "typescript": "5.8.3",
-    "wrangler": "4.9.1"
+    "wrangler": "4.59.1"
   },
   "packageManager": "yarn@1.22.22"
 }
